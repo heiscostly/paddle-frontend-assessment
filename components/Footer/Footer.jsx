@@ -5,6 +5,7 @@ import { Youtube, Facebook, Linkedin, Instagram, Twitter } from "react-feather";
 function Footer() {
   return (
     <FooterContainer>
+      <div className="circle"></div>
       <div className="footer-socials">
         <div>
           <a href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw">

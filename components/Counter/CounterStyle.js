@@ -64,10 +64,10 @@ export const CounterContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin-top: 2rem;
     h1 {
       font: normal normal bold 62px/84px Poppins;
-      // font-family: "Poppins", sans-serif;
-      // font-size: 62px;
       letter-spacing: 0px;
       color: #ffffff;
       text-transform: uppercase;
@@ -86,5 +86,26 @@ export const CounterContainer = styled.div`
       width: 40%;
       font-weight: 200;
     }
+  }
+  .circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 76px;
+    background: transparent linear-gradient(177deg, #7f1e7b 0%, #19073b 100%) 0%
+      0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    right: 80%;
+    top: -4px;
+  }
+  .circle2 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: transparent linear-gradient(177deg, #213f72 0%, #19073b 100%) 0%
+      0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    left: 80%;
   }
 `;

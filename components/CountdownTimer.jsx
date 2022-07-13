@@ -3,12 +3,7 @@ import DateTimeDisplay from "./DateTimeDisplay";
 import useCountdown from "../hooks/useCountDown";
 
 const ExpiredNotice = () => {
-  return (
-    <div className="expired-notice">
-      <span>Expired!!!</span>
-      <p>Please select a future date and time.</p>
-    </div>
-  );
+  return <></>;
 };
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => {

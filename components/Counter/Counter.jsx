@@ -12,11 +12,14 @@ function Counter() {
   return (
     <CounterContainer>
       <div className="count-holder">
+        <div className="circle"></div>
         <h1>Something awesome is coming soon</h1>
         <p className="affiliate">
           Your all-in-one affiliate marketing tracking software track, automate
           and optimize your campaigns.
         </p>
+        <div className="circle2"></div>
+
         <CountdownTimer targetDate={dateTimeAfterThreeDays} />
       </div>
     </CounterContainer>

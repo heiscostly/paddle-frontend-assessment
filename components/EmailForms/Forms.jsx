@@ -1,11 +1,17 @@
 import React from "react";
 import FormInputs from "./FormInputs";
+import { FormWrapper } from "./FormInputsStyle";
+import WaitingList from "./WaitingList";
 
 function Forms() {
   return (
-    <div>
-      <FormInputs placeholder="First Name.." />
-    </div>
+    <FormWrapper>
+      <div style={{ display: "flex", marginBottom: "2rem" }}>
+        <FormInputs placeholder="First Name.." />
+        <FormInputs placeholder="Last Name.." />
+      </div>
+      <WaitingList />
+    </FormWrapper>
   );
 }
 
