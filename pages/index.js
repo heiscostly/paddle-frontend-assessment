@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-
+import Counter from "../components/Counter/Counter";
+import Forms from "../components/EmailForms/Forms";
 export default function Home() {
   return (
     <div>
@@ -10,6 +9,10 @@ export default function Home() {
         <meta name="description" content="Gratis Frontend Task" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main>
+        <Counter />
+        <Forms />
+      </main>
     </div>
   );
 }

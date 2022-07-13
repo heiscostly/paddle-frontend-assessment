@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 
 function Layout({ children }) {
   return (
-    <div>
+    <div style={{ backgroundColor: "#210045", height: "100vh" }}>
       <Header />
       {children}
       <Footer />
