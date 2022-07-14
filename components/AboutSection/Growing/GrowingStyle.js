@@ -43,11 +43,11 @@ export const GrowingWrapper = styled.div`
     }
   }
   .growing {
-    background: transparent linear-gradient(180deg, #213f72 0%, #311254 100%) 0%
-      0% no-repeat padding-box;
-    opacity: 1;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    // background: transparent linear-gradient(180deg, #213f72 0%, #311254 100%) 0%
+    //   0% no-repeat padding-box;
+    // opacity: 1;
+    // backdrop-filter: blur(16px);
+    // -webkit-backdrop-filter: blur(16px);
     width: 50%;
     padding: 3rem;
     .top-content {
