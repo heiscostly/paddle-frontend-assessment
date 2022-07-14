@@ -9,7 +9,7 @@ export const FormInputContainer = styled.div`
     border-bottom: 1px solid #f6f7f9;
     opacity: 0.23;
     padding: 10px;
-    width: 350px;
+    width: 240px;
     margin-right: 2rem;
 
     ::placeholder {
@@ -40,6 +40,10 @@ export const EmailContainer = styled.div`
       letter-spacing: 0px;
       color: #000000;
       opacity: 1;
+    }
+    &:focus {
+      border: none;
+      outline: none;
     }
   }
   .waiting-list-button {

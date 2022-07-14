@@ -5,6 +5,7 @@ import { Youtube, Facebook, Linkedin, Instagram, Twitter } from "react-feather";
 function Footer() {
   return (
     <FooterContainer>
+      {/* <div className="oval"></div> */}
       <div className="circle"></div>
       <div className="footer-socials">
         <div>

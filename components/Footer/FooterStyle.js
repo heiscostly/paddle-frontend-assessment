@@ -32,7 +32,6 @@ export const FooterContainer = styled.div`
     background: transparent linear-gradient(177deg, #7f4129 0%, #1c0c28 100%) 0%
       0% no-repeat padding-box;
     opacity: 1;
-
     position: absolute;
     width: 110px;
     height: 100px;
@@ -40,4 +39,17 @@ export const FooterContainer = styled.div`
     right: 70%;
     top: -54px;
   }
+  // .oval {
+  //   background: transparent linear-gradient(180deg, #213f72 0%, #19073b 100%) 0%
+  //     0% no-repeat padding-box;
+  //   border: 1px solid #707070;
+  //   opacity: 1;
+  //   backdrop-filter: blur(27px);
+  //   -webkit-backdrop-filter: blur(27px);
+  //   border-radius: 50%;
+  //   position: absolute;
+  //   width: 500px;
+  //   height: 500px;
+  //   overflow-x: hidden;
+  // }
 `;
