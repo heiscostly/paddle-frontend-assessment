@@ -4,8 +4,8 @@ export const blogData = [
     title: "12 Popup Use Cases To Increase Conversions",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
-    image: "https://via.placeholder.com/150",
-    date: "SEPTEMBER 6, 2021 ",
+    image: "./img/user.png",
+    date: "SEPTEMBER 6, 2021",
     tag: ".FEATURED ARTICLE",
     affiliate: ".AFFILATE",
   },
@@ -14,7 +14,7 @@ export const blogData = [
     title: "12 Popup Use Cases To Increase Conversions",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
-    image: "https://via.placeholder.com/150",
+    image: "./img/user.png",
     date: "SEPTEMBER 6, 2021 ",
     tag: ".FEATURED ARTICLE",
     affiliate: ".AFFILATE",
@@ -24,7 +24,7 @@ export const blogData = [
     title: "12 Popup Use Cases To Increase Conversions",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
-    image: "https://via.placeholder.com/150",
+    image: "./img/user.png",
     date: "SEPTEMBER 6, 2021 ",
     tag: ".FEATURED ARTICLE",
     affiliate: ".AFFILATE",
@@ -34,7 +34,7 @@ export const blogData = [
     title: "12 Popup Use Cases To Increase Conversions",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
-    image: "https://via.placeholder.com/150",
+    image: "./img/user.png",
     date: "SEPTEMBER 6, 2021 ",
     tag: ".FEATURED ARTICLE",
     affiliate: ".AFFILATE",
@@ -44,7 +44,7 @@ export const blogData = [
     title: "12 Popup Use Cases To Increase Conversions",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
-    image: "https://via.placeholder.com/150",
+    image: "./img/user.png",
     date: "SEPTEMBER 6, 2021 ",
     tag: ".FEATURED ARTICLE",
     affiliate: ".AFFILATE",
@@ -54,7 +54,39 @@ export const blogData = [
     title: "12 Popup Use Cases To Increase Conversions",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
-    image: "https://via.placeholder.com/150",
+    image: "./img/user.png",
+    date: "SEPTEMBER 6, 2021 ",
+    tag: ".FEATURED ARTICLE",
+    affiliate: ".AFFILATE",
+  },
+];
+export const recentData = [
+  {
+    id: 1,
+    title: "12 Popup Use Cases To Increase Conversions",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
+
+    date: "SEPTEMBER 6, 2021",
+    tag: ".FEATURED ARTICLE",
+    affiliate: ".AFFILATE",
+  },
+  {
+    id: 2,
+    title: "12 Popup Use Cases To Increase Conversions",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
+
+    date: "SEPTEMBER 6, 2021 ",
+    tag: ".FEATURED ARTICLE",
+    affiliate: ".AFFILATE",
+  },
+  {
+    id: 3,
+    title: "12 Popup Use Cases To Increase Conversions",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
+
     date: "SEPTEMBER 6, 2021 ",
     tag: ".FEATURED ARTICLE",
     affiliate: ".AFFILATE",
