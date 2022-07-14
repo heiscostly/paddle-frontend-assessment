@@ -15,7 +15,7 @@ function Latest() {
       <div className="input-section">
         <input type="text" placeholder="Search here" />
         <div className="search">
-          <Search />
+          <Search style={{ color: "#632570" }} />
         </div>
       </div>
     </LatestContainer>

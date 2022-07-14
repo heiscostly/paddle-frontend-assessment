@@ -6,7 +6,7 @@ export const TopContainer = styled.div`
     0% no-repeat padding-box;
   opacity: 1;
   color: #fff;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   .blur-container {
     position: relative;
     width: 35%;

@@ -2,20 +2,29 @@ import styled from "styled-components";
 export const LatestContainer = styled.div`
   width: 100%;
   display: flex;
+  justify-content: space-between;
   height: 200px;
   margin-bottom: 4rem;
-  border: 1px solid red;
+
   padding: 3rem;
   .text-content {
-    border: 1px solid green;
     width: 50%;
+    margin-right: 2rem;
     h1 {
       margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+
       padding: 0;
     }
   }
   .input-section {
-    border: 1px solid blue;
     width: 50%;
     display: flex;
     justify-contetn: center;
@@ -30,13 +39,15 @@ export const LatestContainer = styled.div`
       padding: 2rem;
       position: absolute;
       bottom: 0;
+
       ::placeholder {
         font: normal normal 300 17px/29px Poppins;
       }
     }
     .search {
       position: absolute;
-      right: 0;
+      right: 30%;
+      bottom: 20%;
     }
   }
 `;
