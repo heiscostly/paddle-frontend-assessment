@@ -1,9 +1,12 @@
 import React from "react";
 import { HeaderContainer } from "./HeaderStyle";
+import { useRouter } from "next/router";
+
 import Link from "next/link";
 import Image from "next/image";
 
 function Header() {
+  const router = useRouter();
   return (
     <HeaderContainer>
       <div className="header-contents">
@@ -14,19 +17,27 @@ function Header() {
         </div>
         <div className="header-links">
           <ul className="header-links">
-            <li className="nav-items">
+            <li
+              className={router.pathname == "/about" ? "active" : "nav-items"}
+            >
               <Link href="/about">
                 <a>About Us</a>
               </Link>
             </li>
-            <li className="nav-items">
-              <Link href="/">
+            <li className={router.pathname == "/blog" ? "active" : "nav-items"}>
+              <Link href="/blog">
                 <a>Blog</a>
               </Link>
             </li>
-            <li className="nav-items">
+            <li
+              className={router.pathname == "/contact" ? "active" : "nav-items"}
+            >
               <Link href="/">
-                <button className="nav-button">Contact Us</button>
+                <button
+                  className={router.pathname == "/blog" ? "bg" : "nav-button"}
+                >
+                  Contact Us
+                </button>
               </Link>
             </li>
           </ul>

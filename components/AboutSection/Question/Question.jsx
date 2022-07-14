@@ -25,8 +25,8 @@ function Question() {
         <ArrowRight
           style={{
             position: "absolute",
-            left: "9%",
-            bottom: "-3%",
+            left: "9.5rem",
+            // bottom: "3px",
             color: "#FF00F7",
             cursor: "pointer",
           }}

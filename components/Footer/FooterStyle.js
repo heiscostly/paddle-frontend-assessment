@@ -39,6 +39,9 @@ export const FooterContainer = styled.div`
     right: 70%;
     top: -54px;
   }
+  .notactive {
+    display: none;
+  }
   // .oval {
   //   background: transparent linear-gradient(180deg, #213f72 0%, #19073b 100%) 0%
   //     0% no-repeat padding-box;

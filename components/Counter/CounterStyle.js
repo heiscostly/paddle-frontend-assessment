@@ -107,6 +107,6 @@ export const CounterContainer = styled.div`
     opacity: 1;
     position: absolute;
     left: 80%;
-    top: -4px;
+    top: 48%;
   }
 `;

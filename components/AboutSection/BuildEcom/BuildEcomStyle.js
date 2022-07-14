@@ -8,7 +8,7 @@ export const BuildEcomWrapper = styled.div`
 
   .glass-effect {
     width: 50%;
-    height: 20rem;
+    height: 25rem;
     position: relative;
     background: transparent linear-gradient(180deg, #213f72 0%, #311254 100%) 0%
       0% no-repeat padding-box;

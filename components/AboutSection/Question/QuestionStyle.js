@@ -6,6 +6,13 @@ export const QuestionWrapper = styled.div`
   .question-content {
     width: 80%;
     color: #fff;
-    position: relative;
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+    }
   }
 `;
