@@ -31,9 +31,6 @@ export const HeaderContainer = styled.header`
       text-transform: uppercase;
       opacity: 1;
     }
-    &:nth-child(3) {
-      margin-right: 0;
-    }
   }
   .active {
     list-style: none;
@@ -46,9 +43,6 @@ export const HeaderContainer = styled.header`
       color: #ff00f7;
       text-transform: uppercase;
       opacity: 1;
-    }
-    &:nth-child(3) {
-      margin-right: 0;
     }
   }
   .nav-button {

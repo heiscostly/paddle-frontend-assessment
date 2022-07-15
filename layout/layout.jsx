@@ -15,6 +15,7 @@ const LayoutContainer = styled.div`
     background-color: #fff;
     height: 100%;
     width: 100%;
+    color: #000;
   }
 `;
 function Layout({ children }) {

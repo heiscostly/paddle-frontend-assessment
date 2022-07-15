@@ -1,5 +1,5 @@
 import React from "react";
-import CountdownTimer from "../CountdownTimer";
+import CountdownTimer from "../../CountdownTimer";
 import { CounterContainer } from "./CounterStyle";
 
 function Counter() {

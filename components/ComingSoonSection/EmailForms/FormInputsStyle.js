@@ -26,7 +26,7 @@ export const FormWrapper = styled.div`
 `;
 export const EmailContainer = styled.div`
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   .waiting-list {
     width: 664px;
     height: 67px;

@@ -9,7 +9,9 @@ function Footer() {
     <FooterContainer>
       {/* <div className="oval"></div> */}
       <div
-        className={router.pathname == "/about" ? "notactive" : "circle"}
+        className={
+          router.pathname == "/about" || "/github" ? "notactive" : "circle"
+        }
       ></div>
       <div className="footer-socials">
         <div>

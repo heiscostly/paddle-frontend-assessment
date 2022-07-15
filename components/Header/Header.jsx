@@ -30,6 +30,13 @@ function Header() {
               </Link>
             </li>
             <li
+              className={router.pathname == "/github" ? "active" : "nav-items"}
+            >
+              <Link href="/github">
+                <a>Github</a>
+              </Link>
+            </li>
+            <li
               className={router.pathname == "/contact" ? "active" : "nav-items"}
             >
               <Link href="/">

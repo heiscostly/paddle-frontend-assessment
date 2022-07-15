@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Counter from "../components/Counter/Counter";
-import Forms from "../components/EmailForms/Forms";
+import Counter from "../components/ComingSoonSection/Counter/Counter";
+import Forms from "../components/ComingSoonSection/EmailForms/Forms";
 export default function Home() {
   return (
     <div>
