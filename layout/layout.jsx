@@ -12,9 +12,11 @@ const LayoutContainer = styled.div`
     width: 100%;
   }
   .notcolor {
-    background-color: #fff;
+    // background-color: #fff;
     height: 100%;
     width: 100%;
+  }
+  .notcolor .notblog a {
     color: #000;
   }
 `;

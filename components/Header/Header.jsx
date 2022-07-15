@@ -18,7 +18,9 @@ function Header() {
         <div className="header-links">
           <ul className="header-links">
             <li
-              className={router.pathname == "/about" ? "active" : "nav-items"}
+              className={
+                router.pathname == "/about" ? "active" : "nav-items notblog"
+              }
             >
               <Link href="/about">
                 <a>About Us</a>
@@ -30,7 +32,9 @@ function Header() {
               </Link>
             </li>
             <li
-              className={router.pathname == "/github" ? "active" : "nav-items"}
+              className={
+                router.pathname == "/github" ? "active" : "nav-items notblog"
+              }
             >
               <Link href="/github">
                 <a>Github</a>
