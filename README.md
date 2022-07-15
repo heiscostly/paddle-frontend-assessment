@@ -1,6 +1,7 @@
 # Welcome!
 
 This is the a test project given to me by Gratis for the role of a front end developer, this test comprises of 2 task, first I was being given and adobe xd design of a UI to bring to live. Secondly I was given a github api toList the most starred Github repos that were created in the last 30 days.
+Link to Project : [Project Link](https://paddle-frontend-assessment-eight.vercel.app/)
 
 # Folder Structure
 
@@ -16,8 +17,12 @@ In other for you to run the app, you download or clone the repo from github, ope
 
 ## Packages USED
 
-I used a couple numbers of packages in making sure the website looks exactly as it is on paper tho am not perfect but I'd try my best. Some of the packages are: **Styled Coponent** - For my styling **React Feather Icon **- Use to get me icons i used in the project
+I used a couple numbers of packages in making sure the website looks exactly as it is on paper tho am not perfect but I'd try my best. Some of the packages are: **Styled Coponent** - For my styling **React-Feather-Icons** - Use to get me icons i used in the project. **Axios** - For making my request, **React-Number-Format** - For formatting my numbers, **React-spinners** - Use to indicate the network call process
 
 ## What to improve
 
 Firstly I'll want the design to be made on figma instead of adobe xd because I find it hard to get some thing I need, so I had to improvise and make it work
+
+## Challenges
+
+I couldn't export images from the xd file which took alot of my time, I couldn't make the homepage responsive(Please pardon me) because of time and I was figuring how to use the xd design system since it's my first time working with adobe xd.
