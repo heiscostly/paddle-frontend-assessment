@@ -42,17 +42,4 @@ export const FooterContainer = styled.div`
   .notactive {
     display: none;
   }
-  // .oval {
-  //   background: transparent linear-gradient(180deg, #213f72 0%, #19073b 100%) 0%
-  //     0% no-repeat padding-box;
-  //   border: 1px solid #707070;
-  //   opacity: 1;
-  //   backdrop-filter: blur(27px);
-  //   -webkit-backdrop-filter: blur(27px);
-  //   border-radius: 50%;
-  //   position: absolute;
-  //   width: 500px;
-  //   height: 500px;
-  //   overflow-x: hidden;
-  // }
 `;

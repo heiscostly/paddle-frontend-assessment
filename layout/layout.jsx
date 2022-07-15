@@ -10,9 +10,9 @@ const LayoutContainer = styled.div`
     background-color: #210045;
     height: 100%;
     width: 100%;
+    min-height: 100vh;
   }
   .notcolor {
-    // background-color: #fff;
     height: 100%;
     width: 100%;
   }
@@ -29,7 +29,7 @@ function Layout({ children }) {
       >
         <Header />
         {children}
-        <Footer />
+        {router.pathname != "/github" && <Footer />}
       </div>
     </LayoutContainer>
   );

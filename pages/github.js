@@ -24,9 +24,7 @@ function Git() {
   }
 
   useEffect(() => {
-    // setLoading(true);
     getData().then((data) => setData(data));
-    // setLoading(false);
   }, []);
   return (
     <div>
@@ -34,12 +32,20 @@ function Git() {
         <title>Github</title>
       </Head>
       {loading ? (
-        <BeatLoader
-          sizeUnit={"px"}
-          size={20}
-          color={"#fff"}
-          loading={loading}
-        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <BeatLoader
+            sizeUnit={"px"}
+            size={20}
+            color={"#fff"}
+            loading={loading}
+          />
+        </div>
       ) : (
         data.map((item) => <Github key={item.id} data={item} />)
       )}
